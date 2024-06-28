@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <div class="chatbot_main" id="main_chatbot">
+      <div id="chatbot_start_button">
+        <!-- src="https://abtest-img-upload.s3.eu-west-2.amazonaws.com/chatbot/main-logo.png" -->
+        <img
+          src="https://abtest-img-upload.s3.eu-west-2.amazonaws.com/chatbot/Hook+%26+Loop+Icon.png"
+          alt=""
+        />
+      </div>
+      <div id="chatbot_body">
+        <div id="chatbot" class="elx-main-card">
+          <div class="main-title">
+            <div>
+              <img
+                id="title_img"
+                src="https://abtest-img-upload.s3.eu-west-2.amazonaws.com/chatbot/body-logo.png"
+                alt=""
+                height="28px"
+                width="28px"
+              />
+            </div>
+            <span id="main_title">EchoLogyx Chatbot</span>
+            <div class="expand_close_parent">
+              <div class="expand_collapse_button">
+                <img
+                  id="collapse_img"
+                  src="https://abtest-img-upload.s3.eu-west-2.amazonaws.com/chatbot/fluent_minimize-16-regular.png"
+                  alt=""
+                />
+              </div>
+              <div class="bar"></div>
+              <div class="expand_close_button">
+                <img
+                  id="close_img"
+                  src="https://abtest-img-upload.s3.eu-west-2.amazonaws.com/chatbot/close-button.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="chat-area" id="message-box"></div>
+          <div id="footer_box">
+          <div class="input-div">
+            <button class="reset">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.888 12.5C20.164 17.311 16.013 21 11 21C5.477 21 1 16.523 1 11C1 5.477 5.477 1 11 1C15.1 1 18.625 3.468 20.168 7"
+                  stroke="#373F47"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M16 7H20.4C20.4788 7 20.5568 6.98448 20.6296 6.95433C20.7024 6.92417 20.7685 6.87998 20.8243 6.82426C20.88 6.76855 20.9242 6.70241 20.9543 6.62961C20.9845 6.55681 21 6.47879 21 6.4V2"
+                  stroke="#373F47"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <input type="hidden" value="" id="secret_field" />
+            <textarea
+              class="input-message"
+              name="message"
+              id="message"
+              rows="1"
+              placeholder="Type your message here"
+            ></textarea>
+            <button class="input-send" id="elx_chatbot_submit">
+              <img
+                class="send_icon"
+                src="https://abtest-img-upload.s3.eu-west-2.amazonaws.com/chatbot/send_icon_black.png"
+                alt=""
+              />
+            </button>
+          </div>
+          <p class="elx_chatbot_footer">This chatbot is powered by ELX ChatBot AI. The more information you’re able to provide, the clearer the bot’s understanding of your request.</p>
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </head>
+</html>

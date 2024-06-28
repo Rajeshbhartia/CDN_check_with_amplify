@@ -1,0 +1,1 @@
+console.log("Accepting the updated mod");
